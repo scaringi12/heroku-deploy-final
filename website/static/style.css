@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #262626;
+    background: #ffffff;
+    /** display flex so footer sticks to bottom of page */
+    min-height: 100vh; /**viewport height body has to be at least 100vh */
+
+    display: flex;  
+    flex-direction: column;
+    
+}
+
+.grumpy-deer-picture {
+
+    border: grey solid 2px;
+    display: block; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    max-height: 500px;
+    max-width: 600px;
+    box-sizing: border-box;
+
+}
+
+.grumpy-deer-text {
+    
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    width: 50%;
+}
+
+
+
+.content-container {
+    padding: 15px;
+    width: 85%;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+
+    background: #363636;
+    color: #fafafa;
+    height: 150px;
+    margin-top: auto;
+    position: relative;
+    
+}
+
+.footer-bottom {
+    background: #404040;
+    color: #fafafa;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px
+
+}

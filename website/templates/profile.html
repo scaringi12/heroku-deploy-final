@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="content-container">
+
+    <h1>This is the Profile page</h1>
+    <h2>
+        Welcome, {{ user.first_name }}    <!-- Querys database for user firstname and actually works =) -->
+    </h2>
+    <h2>
+        You are user number {{ user.id }} thankyou for registering :)  <!-- Querys database for user id just setting up framework for future endevour -->
+    </h2>
+    <p>*put content here*</p>
+
+</div>
+
+
+{% endblock %}
